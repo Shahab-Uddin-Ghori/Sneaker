@@ -36,6 +36,36 @@ function Sec2() {
         </div>
       </div>
       <CardCarousel />
+      <div
+        className="text"
+        style={{
+          width: "100%",
+          height: "30vh",
+          // backgroundColor: "red",
+          display: "flex",
+          justifyContent: "space-evenly",
+          alignItems: "center",
+        }}
+      >
+        <img
+          className="sneakersLogo"
+          src="https://static.vecteezy.com/system/resources/previews/010/994/412/non_2x/nike-logo-black-with-name-clothes-design-icon-abstract-football-illustration-with-white-background-free-vector.jpg"
+          alt="jordanLogos"
+          style={{ width: "15%" }}
+        />
+        <img
+          className="sneakersLogo"
+          src="https://i.pinimg.com/originals/de/89/43/de8943c5be41c43b7db3ee63ff209d4a.jpg"
+          alt="jordanLogos"
+          style={{ width: "20%" }}
+        />
+        <img
+          className="sneakersLogo"
+          src="https://i.pinimg.com/736x/db/1b/39/db1b39becd09dd051858dfbf31b8f5bb.jpg"
+          alt="jordanLogos"
+          style={{ width: "18%" }}
+        />
+      </div>
     </div>
   );
 }

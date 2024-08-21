@@ -5,7 +5,7 @@ import Sec3Content from "./Sec3Content";
 function Sec3() {
   let sec2ImgObj = [
     {
-      url: `https://png.pngtree.com/background/20230611/original/pngtree-the-yellow-sneaker-has-black-picture-image_3160068.jpg`,
+      url: `https://images.unsplash.com/photo-1637437757614-6491c8e915b5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
     },
     {
       url: `https://img.freepik.com/premium-photo/running-shoes-white-background_10541-635.jpg`,

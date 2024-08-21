@@ -5,6 +5,7 @@ import React from "react";
 import HeroSec from "./HeroSec";
 import Sec2 from "./components/Sec2";
 import Sec3 from "./components/Sec3";
+import Sec4 from "./components/Sec4";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeroSec />
       <Sec2 />
       <Sec3 />
+      <Sec4 />
     </main>
   );
 }

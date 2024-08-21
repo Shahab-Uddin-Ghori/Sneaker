@@ -134,9 +134,38 @@ let cardsObj = [
   },
   {
     shoeName: "Blue Air Jordan Sneakers Nike 3",
-    price: "$" + 250,
-    shoeImg: `https://wp.clutchpoints.com/wp-content/uploads/2023/08/Air-Jordan-2-Retro-Low-UNC-WhiteUniversity-BlueCement-Grey.jpg`,
-    quantity: "Sold Out  90%",
+    price: "$" + 999,
+    shoeImg: `https://images.unsplash.com/photo-1637437757614-6491c8e915b5?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`,
+    quantity: "Sold Out  95%",
+    rating: (
+      <>
+        <RatedStar />
+        <RatedStar />
+        <RatedStar />
+        <RatedStar />
+        <RatedStar />
+      </>
+    ),
+  },
+  {
+    shoeName: "Blue Air Jordan Sneakers Nike 3",
+    price: "$" + 300,
+    shoeImg: `https://media.istockphoto.com/id/1620926852/photo/white-sneaker-isolated-on-white-background.webp?b=1&s=612x612&w=0&k=20&c=rXcRxzvJVZRcEjyChQOBPE68LOlHSTV67R2cu8Jqbxw=`,
+    quantity: "Sold Out  50%",
+    rating: (
+      <>
+        <RatedStar />
+        <RatedStar />
+        <RatedStar />
+        <RatedStar />
+      </>
+    ),
+  },
+  {
+    shoeName: "White Mash blue Sneaker",
+    price: "$" + 310,
+    shoeImg: `https://media.istockphoto.com/id/956501428/photo/sport-shoes-on-isolated-white-background.webp?b=1&s=170667a&w=0&k=20&c=zQ0Dsy90DcfSH5YR3yZFR26FgkBx2z_LxIhx3M-JxKg=`,
+    quantity: "Sold Out  70%",
     rating: (
       <>
         <RatedStar />
@@ -148,13 +177,12 @@ let cardsObj = [
     ),
   },
   {
-    shoeName: "Blue Air Jordan Sneakers Nike 3",
-    price: "$" + 250,
-    shoeImg: `https://wp.clutchpoints.com/wp-content/uploads/2023/08/Air-Jordan-2-Retro-Low-UNC-WhiteUniversity-BlueCement-Grey.jpg`,
-    quantity: "Sold Out  90%",
+    shoeName: "Black Jordan Sneakers ",
+    price: "$" + 150,
+    shoeImg: `https://watermark.lovepik.com/photo/20211130/large/lovepik-black-sneakers-on-white-picture_501269531.jpg`,
+    quantity: "Sold Out  85%",
     rating: (
       <>
-        <RatedStar />
         <RatedStar />
         <RatedStar />
         <RatedStar />
@@ -163,39 +191,9 @@ let cardsObj = [
     ),
   },
   {
-    shoeName: "Blue Air Jordan Sneakers Nike 3",
-    price: "$" + 250,
-    shoeImg: `https://wp.clutchpoints.com/wp-content/uploads/2023/08/Air-Jordan-2-Retro-Low-UNC-WhiteUniversity-BlueCement-Grey.jpg`,
-    quantity: "Sold Out  90%",
-    rating: (
-      <>
-        <RatedStar />
-        <RatedStar />
-        <RatedStar />
-        <RatedStar />
-        <HalfRatedStar />
-      </>
-    ),
-  },
-  {
-    shoeName: "Blue Air Jordan Sneakers Nike 3",
-    price: "$" + 250,
-    shoeImg: `https://wp.clutchpoints.com/wp-content/uploads/2023/08/Air-Jordan-2-Retro-Low-UNC-WhiteUniversity-BlueCement-Grey.jpg`,
-    quantity: "Sold Out  90%",
-    rating: (
-      <>
-        <RatedStar />
-        <RatedStar />
-        <RatedStar />
-        <RatedStar />
-        <HalfRatedStar />
-      </>
-    ),
-  },
-  {
-    shoeName: "Blue Air Jordan Sneakers Nike 3",
-    price: "$" + 250,
-    shoeImg: `https://wp.clutchpoints.com/wp-content/uploads/2023/08/Air-Jordan-2-Retro-Low-UNC-WhiteUniversity-BlueCement-Grey.jpg`,
+    shoeName: "Black & white Air Jordan ",
+    price: "$" + 570,
+    shoeImg: `https://i.pinimg.com/564x/ca/84/bf/ca84bfe4e072035dbd94b02f67832e74.jpg`,
     quantity: "Sold Out  90%",
     rating: (
       <>
