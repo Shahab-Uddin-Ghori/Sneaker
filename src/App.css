@@ -6,7 +6,77 @@
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+/* // Hero Sec  */
+
+.heroSec {
+  width: 100vw;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+.heroImg {
+  transition: ease 0.5s;
+}
+
+.heroImg:hover {
+  scale: 1.05;
+  cursor: pointer;
+  rotate: -15deg;
+}
+
 .thinner-gray-hr {
   border: none;
-  border-top: 0.5px solid #d3d3d3; /* Extremely thin gray line */
+  border-top: 0.5px solid #e6e6e6; /* Extremely thin gray line */
+}
+.cardImg:hover,
+.ShoeImage:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+.logo:hover,
+.navLink li:hover,
+.searchUserCart:hover,
+.forwardBtn:hover,
+.backBtn:hover,
+.addCart:hover,
+button:hover {
+  cursor: pointer;
+}
+
+ul li:hover,
+.searchUserCart i:hover {
+  color: #f3663a;
+}
+.forwardBtn:active,
+.backBtn:active,
+.addCart:active,
+button:active {
+  scale: 0.97;
+}
+.carousel-container {
+  width: 92.5%; /* Container width */
+  overflow-x: auto; /* Enable horizontal scrolling */
+  /* For visual feedback */
+  /* background-color: red;  */
+  white-space: nowrap; /* Prevent wrapping */
+  padding: 1rem 0; /* Padding for both left and right */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.carousel-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome, Safari, and Edge */
+}
+
+.card-wrapper {
+  display: flex; /* Align cards horizontally */
+}
+
+.card-wrapper > * {
+  flex: 0 0 auto; /* Make sure cards don't shrink or grow */
+  margin-right: 1rem; /* Spacing between cards */
 }

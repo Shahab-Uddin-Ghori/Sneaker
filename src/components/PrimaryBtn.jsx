@@ -13,6 +13,7 @@ function PrimaryBtn() {
         borderRadius: "1.5rem",
         fontSize: ".9rem",
         fontWeight: "600",
+        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
       }}
       className="primaryBtn"
     >

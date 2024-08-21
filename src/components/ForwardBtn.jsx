@@ -17,9 +17,10 @@ function ForwardBtn() {
         backgroundColor: "rgb(243,102,58)",
         border: "none",
         outline: "none",
+        boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
       }}
     >
-      <i class="bx bx-right-arrow-alt"></i>
+      <i className="bx bx-right-arrow-alt"></i>
     </button>
   );
 }

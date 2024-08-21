@@ -2,20 +2,16 @@ import { useState } from "react";
 
 import "./App.css";
 import React from "react";
-import Logo from "./components/Logo";
-import Nav from "./components/Nav";
-import HeroText from "./components/HeroText";
-import PrimaryBtn from "./components/PrimaryBtn";
-import SecBtn from "./components/SecBtn";
-import ForwardBtn from "./components/ForwardBtn";
-import BackBtn from "./components/BackBtn";
+import HeroSec from "./HeroSec";
+import Sec2 from "./components/Sec2";
+import Sec3 from "./components/Sec3";
 
 function App() {
   return (
-    <main>
-      <Nav />
-      <ForwardBtn />
-      <BackBtn />
+    <main className="main">
+      <HeroSec />
+      <Sec2 />
+      <Sec3 />
     </main>
   );
 }

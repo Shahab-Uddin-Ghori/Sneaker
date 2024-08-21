@@ -3,10 +3,10 @@ import logo from "../img/logo.png";
 function Logo() {
   return (
     <div
+      className="logo"
       style={{
         display: "flex",
         alignItems: "center",
-        gap: ".5rem",
       }}
     >
       <img src={logo} alt="logo" style={{ width: "4rem" }} />

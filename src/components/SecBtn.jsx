@@ -13,6 +13,7 @@ function SecBtn() {
         borderRadius: "1.5rem",
         fontSize: ".9rem",
         fontWeight: "600",
+        boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
       }}
       className="secBtn"
     >
